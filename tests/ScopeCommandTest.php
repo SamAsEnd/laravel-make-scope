@@ -2,8 +2,6 @@
 
 namespace SamAsEnd\ScopeMake\Tests;
 
-use Illuminate\Foundation\Testing\PendingCommand;
-
 class ScopeCommandTest extends TestCase
 {
     /** @test */
@@ -14,9 +12,9 @@ class ScopeCommandTest extends TestCase
             ->execute();
 
         $this->assertFileExists(app_path('Scopes/TestingScope.php'));
-        
+
         $this->assertFileEquals(
-            __DIR__ . '/../stubs/scope_test.stub',
+            __DIR__.'/../stubs/scope_test.stub',
             app_path('Scopes/TestingScope.php'));
     }
 }
