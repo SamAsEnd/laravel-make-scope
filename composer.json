@@ -1,5 +1,5 @@
 {
-	"name": "SamAsEnd/laravel-make-scope",
+	"name": "samasend/laravel-make-scope",
 	"description": "Brings make:scope command to laravel",
 	"type": "library",
 	"keywords": ["laravel", "make", "scope"],

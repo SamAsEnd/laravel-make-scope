@@ -4,5 +4,5 @@ Brings **make:scope** command to laravel
 
 ## Installation
 ```
-composer require SamAsEnd/laravel-make-scope
+composer require samasend/laravel-make-scope
 ```
