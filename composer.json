@@ -1,0 +1,46 @@
+{
+	"name": "SamAsEnd/laravel-make-scope",
+	"description": "Brings make:scope command to laravel",
+	"type": "library",
+	"keywords": ["laravel", "make", "scope"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "SamAsEnd",
+			"email": "4sam21@gmail.com"
+		}
+	],
+	"require": {
+		"php": "^7.1.3",
+		"illuminate/console": "~5.8|^6.0",
+		"illuminate/support": "~5.8|^6.0"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "^8.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"SamAsEnd\\ScopeMake\\": "src/"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"SamAsEnd\\ScopeMake\\Tests\\": "tests/"
+		}
+	},
+	"config": {
+		"sort-packages": true
+	},
+	"extra": {
+		"branch-alias": {
+			"dev-master": "1.x-dev"
+		},
+		"laravel": {
+			"providers": [
+				"SamAsEnd\\ScopeMake\\ScopeMakeCommandServiceProvider"
+			]
+		}
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true
+}
