@@ -18,23 +18,21 @@ You can read about query scopes on [laravel documentation](https://laravel.com/d
 Prerequisites
 -------------
  - **PHP** 7.1.3 or greater.
- - **Laravel** 5.8 || 6.x
+ - **Laravel** 5.8 || 6.x || 7.x
  
 Installation
 ------------
-```sh
+```bash
 composer require samasend/laravel-make-scope
 ```
 
- > If you never used `composer` before, please check out 
- > [this link](https://getcomposer.org)
- > before you write any **PHP** code again!
-
 Usage
 ----------------
-```bach
+```bash
 php artisan make:scope AgeScope
 ```
+
+[https://laravel-news.com/laravel-scopes-generator](https://laravel-news.com/laravel-scopes-generator)
 
 License
 -------
