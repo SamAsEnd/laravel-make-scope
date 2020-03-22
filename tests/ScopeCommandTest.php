@@ -15,6 +15,7 @@ class ScopeCommandTest extends TestCase
 
         $this->assertFileEquals(
             __DIR__.'/../stubs/scope_test.stub',
-            app_path('Scopes/TestingScope.php'));
+            app_path('Scopes/TestingScope.php')
+        );
     }
 }
