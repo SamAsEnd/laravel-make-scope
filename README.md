@@ -23,7 +23,7 @@ Prerequisites
 Installation
 ------------
 ```bash
-composer require samasend/laravel-make-scope
+composer require --dev samasend/laravel-make-scope
 ```
 
 Usage
