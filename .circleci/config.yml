@@ -1,0 +1,28 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/php:7.2-node-browsers
+      - image: circleci/php:7.3.0
+      - image: circleci/php:7.4.0
+      - image: circleci/php:8.0.0
+
+    steps:
+      - checkout
+
+      - run: sudo apt update # PHP CircleCI 2.0 Configuration File# PHP CircleCI 2.0 Configuration File sudo apt install zlib1g-dev libsqlite3-dev
+      - run: sudo docker-php-ext-install zip
+
+      # Download and cache dependencies
+      - restore_cache:
+          keys:
+            - v1-dependencies-{{ checksum "composer.lock" }}
+          
+      - run: composer install -n --prefer-dist
+
+      - save_cache:
+          key: v1-dependencies-{{ checksum "composer.lock" }}
+          paths:
+            - ./vendor
+
+      - run: ./vendor/bin/phpunit
