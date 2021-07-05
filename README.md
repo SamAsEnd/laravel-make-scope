@@ -1,7 +1,7 @@
 laravel [**make:scope**](https://laravel.com/docs/6.x/eloquent#query-scopes) command  ![From Ethiopia](https://img.shields.io/badge/From-Ethiopia-brightgreen.svg)
 =======
 
-[![Build Status](https://travis-ci.org/SamAsEnd/laravel-make-scope.svg?branch=master)](https://travis-ci.org/SamAsEnd/laravel-make-scope)
+[![Build Status](https://www.travis-ci.com/SamAsEnd/laravel-make-scope.svg?branch=master)](https://www.travis-ci.com/SamAsEnd/laravel-make-scope)
 [![StyleCI](https://github.styleci.io/repos/210116535/shield?branch=master)](https://github.styleci.io/repos/210116535)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/SamAsEnd/laravel-make-scope/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/SamAsEnd/laravel-make-scope/?branch=master)
 [![Code Coverage](https://scrutinizer-ci.com/g/SamAsEnd/laravel-make-scope/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/SamAsEnd/laravel-make-scope/?branch=master)
