@@ -17,7 +17,7 @@ You can read about query scopes on [laravel documentation](https://laravel.com/d
 
 Prerequisites
 -------------
- - **PHP** 7.2 or greater.
+ - **PHP** >= 7.2 || 8.0
  - **Laravel** 6.x || 7.x || 8.x
  
 Installation
