@@ -1,46 +1,50 @@
 {
-	"name": "samasend/laravel-make-scope",
-	"description": "Brings make:scope command to laravel",
-	"type": "library",
-	"keywords": ["laravel", "make", "scope"],
-	"license": "MIT",
-	"authors": [
-		{
-			"name": "SamAsEnd",
-			"email": "4sam21@gmail.com"
-		}
-	],
-	"require": {
-		"php": "^7.2|^8.0",
-		"illuminate/console": "^6.0|^7.0|^8.0|^9.0",
-		"illuminate/support": "^6.0|^7.0|^8.0|^9.0"
-	},
-	"require-dev": {
-		"orchestra/testbench": "^4.0|^7.0"
-	},
-	"autoload": {
-		"psr-4": {
-			"SamAsEnd\\ScopeMake\\": "src/"
-		}
-	},
-	"autoload-dev": {
-		"psr-4": {
-			"SamAsEnd\\ScopeMake\\Tests\\": "tests/"
-		}
-	},
-	"config": {
-		"sort-packages": true
-	},
-	"extra": {
-		"branch-alias": {
-			"dev-master": "1.1-dev"
-		},
-		"laravel": {
-			"providers": [
-				"SamAsEnd\\ScopeMake\\ScopeMakeCommandServiceProvider"
-			]
-		}
-	},
-	"minimum-stability": "dev",
-	"prefer-stable": true
+    "name": "samasend/laravel-make-scope",
+    "description": "Brings make:scope command to laravel",
+    "type": "library",
+    "keywords": [
+        "laravel",
+        "make",
+        "scope"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "SamAsEnd",
+            "email": "4sam21@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2|^8.0",
+        "illuminate/console": "^6.0|^7.0|^8.0|^9.0|^10.0",
+        "illuminate/support": "^6.0|^7.0|^8.0|^9.0|^10.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^4.0|^7.0|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SamAsEnd\\ScopeMake\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SamAsEnd\\ScopeMake\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.1-dev"
+        },
+        "laravel": {
+            "providers": [
+                "SamAsEnd\\ScopeMake\\ScopeMakeCommandServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
